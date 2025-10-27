@@ -1,6 +1,6 @@
 # S3 bucket for storing Terraform state
 resource "aws_s3_bucket" "tf_state" {
-  bucket = "project-bedrock-tfstate" # must be globally unique
+  bucket = "franklyn-project-bedrock-tfstate" # must be globally unique
 }
 
 # Enable versioning for state rollback
